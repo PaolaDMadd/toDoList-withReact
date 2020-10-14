@@ -36,8 +36,10 @@ return (
           }
           return currentItem
         }))}}   />
+      {/* NB the underscore is a convention used to "declare" an argument that won't be used */}
+        {/* <input type="checkbox" className="box2" onClick={() => updateList(list.filter((_, i)=>index !== i))}/> */}
 
-        <input type="checkbox" className="box2" onClick={() => updateList(list.filter((_, i)=>index !== i))}/>
+        <button className="box2" onClick={() => updateList(list.filter((_, i)=>index !== i))}>Remove</button>
       </li>)
   )}
 </ul>

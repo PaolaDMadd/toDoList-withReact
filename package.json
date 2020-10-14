@@ -1,5 +1,5 @@
 {
-  "homepage": "https://PaolaDMadd.github.io/toDoList-withReact",
+  "homepage": "https://paoladmadd.github.io/toDoList-withReact",
   "name": "react-todolist",
   "version": "0.1.0",
   "private": true,
@@ -35,6 +35,9 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "gh-pages": "^2.2.0",
+    "mocha": "^8.1.3"
   }
 }
